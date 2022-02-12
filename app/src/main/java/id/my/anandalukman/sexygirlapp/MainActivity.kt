@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
                 Column(
                     modifier = Modifier
                         .fillMaxSize()
-                        .padding(32.dp)
+                        .padding(10.dp)
                 ) {
                     val viewModel: SexyViewModel = hiltViewModel()
                     val girl = viewModel.state.value.sexyBean
