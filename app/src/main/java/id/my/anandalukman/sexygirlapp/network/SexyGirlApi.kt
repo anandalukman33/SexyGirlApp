@@ -9,7 +9,7 @@ interface SexyGirlApi {
     suspend fun getRandomGirl(): SexyBean
 
     companion object {
-        const val BASE_URL = "http://192.168.1.3:8100"
+        const val BASE_URL = "https://obasaka.herokuapp.com"
     }
 
 }
